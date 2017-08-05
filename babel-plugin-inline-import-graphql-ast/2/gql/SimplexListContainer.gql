@@ -1,0 +1,8 @@
+query products {
+  products {
+    productId
+    name
+    description
+    weight
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "plugins": ["babel-plugin-inline-import-graphql-ast"],
+  "env": {
+    "development": {
+      "presets": ["next/babel", "flow"],
+      "plugins": ["inline-dotenv"]
+    }
+  }
+}
